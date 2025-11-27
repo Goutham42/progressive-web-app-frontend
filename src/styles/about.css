@@ -1,0 +1,88 @@
+/* About Page Styles */
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.about-page p {
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.about-page button:hover {
+  background-color: #0056b3;
+}
+
+.details {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.details li {
+  margin-bottom: 5px;
+}
+
+/* Home Link */
+.home-link {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.home-link:hover {
+  color: #0056b3;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .about-page h1 {
+    font-size: 2rem;
+  }
+
+  .about-page p {
+    font-size: 1rem;
+  }
+
+  .about-page button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}

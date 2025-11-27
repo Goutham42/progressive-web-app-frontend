@@ -1,0 +1,10 @@
+{
+  "appId": "com.mahathi.pwa",
+  "appName": "webnova",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
